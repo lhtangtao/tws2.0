@@ -1,0 +1,1703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNGSutie]">
+  <test name="微买单接口测试 - 注册登录">
+    <classes>
+      <class name="main.testcase.RegisterAndlogin.login"/>
+      <class name="main.testcase.RegisterAndlogin.getAuthCode"/>
+      <class name="main.testcase.RegisterAndlogin.register"/>
+      <class name="main.testcase.RegisterAndlogin.completeRegistrationClerk"/>
+      <class name="main.testcase.RegisterAndlogin.managerCompleteRegistration"/>
+      <class name="main.testcase.RegisterAndlogin.checkShopName"/>
+      <class name="main.testcase.RegisterAndlogin.retrievePassword"/>
+    </classes>
+  </test> <!-- 微买单接口测试 - 注册登录 -->
+  <test name="微买单接口测试 - 首款订单">
+    <classes>
+      <class name="main.testcase.GatheringList.gatheringList"/>
+      <class name="main.testcase.GatheringList.collectionSchedule"/>
+    </classes>
+  </test> <!-- 微买单接口测试 - 首款订单 -->
+  <test name="微买单接口测试 - 设置">
+    <classes>
+      <class name="main.testcase.Setting.personalDataToSee"/>
+      <class name="main.testcase.Setting.changePassword"/>
+      <class name="main.testcase.Setting.personalCenter"/>
+    </classes>
+  </test> <!-- 微买单接口测试 - 设置 -->
+  <test name="微买单接口测试 - 钱包页面">
+    <classes>
+      <class name="main.testcase.Wallet.accountBalance"/>
+      <class name="main.testcase.Wallet.withdrawalRecordList"/>
+      <class name="main.testcase.Wallet.BeforeTheWithdrawalInformationQuery"/>
+      <class name="main.testcase.Wallet.Withdraw"/>
+      <class name="main.testcase.Wallet.withdraw_already"/>
+      <class name="main.testcase.Wallet.withdraw_fail"/>
+    </classes>
+  </test> <!-- 微买单接口测试 - 钱包页面 -->
+  <test name="微买单接口测试 - faxian页面">
+    <classes>
+      <class name="main.testcase.Discover.discoveryModules"/>
+    </classes>
+  </test> <!-- 微买单接口测试 - faxian页面 -->
+  <test name="微买单接口测试 - 店员管理">
+    <classes>
+      <class name="main.testcase.ManagementClerk.queryAssistantInformation"/>
+      <class name="main.testcase.ManagementClerk.shopAssistantList"/>
+      <class name="main.testcase.ManagementClerk.addShopAssistant"/>
+    </classes>
+  </test> <!-- 微买单接口测试 - 店员管理 -->
+  <test name="微买单接口测试 - 抽奖">
+    <classes>
+      <class name="main.testcase.Lottery.lottery"/>
+      <class name="main.testcase.Lottery.lotteryRecord"/>
+      <class name="main.testcase.Lottery.lotteryAward"/>
+      <class name="main.testcase.Lottery.lotteryTimes"/>
+      <class name="main.testcase.Lottery.ticker"/>
+    </classes>
+  </test> <!-- 微买单接口测试 - 抽奖 -->
+  <test name="微买单接口测试 - 反扫">
+    <classes>
+      <class name="main.testcase.ReverseScan.fansaopay"/>
+      <class name="main.testcase.ReverseScan.atheringCodeShop"/>
+      <class name="main.testcase.ReverseScan.getGatheringCode"/>
+      <class name="main.testcase.ReverseScan.isActiveCode"/>
+      <class name="main.testcase.ReverseScan.openid"/>
+      <class name="main.testcase.ReverseScan.activeThecode"/>
+    </classes>
+  </test> <!-- 微买单接口测试 - 反扫 -->
+  <test name="微买单接口测试 -现金收款 ">
+    <classes>
+      <class name="main.testcase.CashCliiection.cashCliiection"/>
+      <class name="main.testcase.CashCliiection.receiptcount"/>
+      <class name="main.testcase.CashCliiection.ordernumber"/>
+      <class name="main.testcase.CashCliiection.orderDelete"/>
+    </classes>
+  </test> <!-- 微买单接口测试 -现金收款  -->
+  <test name="微买单接口测试 - 积分">
+    <classes>
+      <class name="main.testcase.points.ruleMsg"/>
+      <class name="main.testcase.points.direction"/>
+      <class name="main.testcase.points.checkin"/>
+      <class name="main.testcase.points.records"/>
+      <class name="main.testcase.points.myPoint"/>
+      <class name="main.testcase.points.creditexChange"/>
+      <class name="main.testcase.points.notice"/>
+    </classes>
+  </test> <!-- 微买单接口测试 - 积分 -->
+  <test name="微买单接口测试 - qita">
+    <classes>
+      <class name="main.testcase.Other.upgradeToRemind"/>
+      <class name="main.testcase.Other.getStartDiagram"/>
+      <class name="main.testcase.Other.accessToSystemConfigurationTables"/>
+      <class name="main.testcase.Other.fuzzyQueryCityList"/>
+      <class name="main.testcase.Other.fuzzyQueryShopList"/>
+      <class name="main.testcase.Other.pushToken"/>
+      <class name="main.testcase.Other.payConfig"/>
+      <class name="main.testcase.Other.root"/>
+      <class name="main.testcase.Other.rootPost"/>
+      <class name="main.testcase.Other.sessionGuid"/>
+    </classes>
+  </test> <!-- 微买单接口测试 - qita -->
+  <test name="微买单接口测试 - 钱包页面(failed)">
+    <classes>
+      <class name="main.testcase.Other.accessToSystemConfigurationTables">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Other.accessToSystemConfigurationTables -->
+      <class name="main.testcase.points.notice">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.notice -->
+      <class name="main.testcase.CashCliiection.orderDelete">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.CashCliiection.orderDelete -->
+      <class name="main.testcase.ReverseScan.openid">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.ReverseScan.openid -->
+      <class name="main.testcase.points.checkin">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.checkin -->
+      <class name="main.testcase.ManagementClerk.addShopAssistant">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.ManagementClerk.addShopAssistant -->
+      <class name="main.testcase.Other.fuzzyQueryShopList">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Other.fuzzyQueryShopList -->
+      <class name="main.testcase.CashCliiection.receiptcount">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.CashCliiection.receiptcount -->
+      <class name="main.testcase.CashCliiection.cashCliiection">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.CashCliiection.cashCliiection -->
+      <class name="main.testcase.Lottery.ticker">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Lottery.ticker -->
+      <class name="main.testcase.Wallet.withdraw_fail">
+        <methods>
+          <include name="setup"/>
+          <include name="w_al" invocation-numbers="6"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.withdraw_fail -->
+      <class name="main.testcase.RegisterAndlogin.getAuthCode">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.getAuthCode -->
+      <class name="main.testcase.ReverseScan.activeThecode">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.ReverseScan.activeThecode -->
+      <class name="main.testcase.Setting.personalDataToSee">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Setting.personalDataToSee -->
+      <class name="main.testcase.Wallet.accountBalance">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.accountBalance -->
+      <class name="main.testcase.RegisterAndlogin.managerCompleteRegistration">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.managerCompleteRegistration -->
+      <class name="main.testcase.Lottery.lottery">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Lottery.lottery -->
+      <class name="main.testcase.ReverseScan.isActiveCode">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.ReverseScan.isActiveCode -->
+      <class name="main.testcase.Other.sessionGuid">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Other.sessionGuid -->
+      <class name="main.testcase.ReverseScan.atheringCodeShop">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.ReverseScan.atheringCodeShop -->
+      <class name="main.testcase.Other.fuzzyQueryCityList">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Other.fuzzyQueryCityList -->
+      <class name="main.testcase.Lottery.lotteryTimes">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Lottery.lotteryTimes -->
+      <class name="main.testcase.CashCliiection.ordernumber">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.CashCliiection.ordernumber -->
+      <class name="main.testcase.RegisterAndlogin.retrievePassword">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.retrievePassword -->
+      <class name="main.testcase.Discover.discoveryModules">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Discover.discoveryModules -->
+      <class name="main.testcase.RegisterAndlogin.register">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.register -->
+      <class name="main.testcase.Wallet.Withdraw">
+        <methods>
+          <include name="withdraw" invocation-numbers="6"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.Withdraw -->
+      <class name="main.testcase.points.records">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.records -->
+      <class name="main.testcase.points.direction">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.direction -->
+      <class name="main.testcase.RegisterAndlogin.completeRegistrationClerk">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.completeRegistrationClerk -->
+      <class name="main.testcase.ReverseScan.getGatheringCode">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.ReverseScan.getGatheringCode -->
+      <class name="main.testcase.RegisterAndlogin.login">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.login -->
+      <class name="main.testcase.Wallet.BeforeTheWithdrawalInformationQuery">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.BeforeTheWithdrawalInformationQuery -->
+      <class name="main.testcase.Setting.changePassword">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Setting.changePassword -->
+      <class name="main.testcase.Wallet.withdrawalRecordList">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.withdrawalRecordList -->
+      <class name="main.testcase.RegisterAndlogin.checkShopName">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.checkShopName -->
+      <class name="main.testcase.points.myPoint">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.myPoint -->
+      <class name="main.testcase.Wallet.withdraw_already">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.withdraw_already -->
+      <class name="main.testcase.Lottery.lotteryAward">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Lottery.lotteryAward -->
+      <class name="main.testcase.points.ruleMsg">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.ruleMsg -->
+      <class name="main.testcase.Lottery.lotteryRecord">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Lottery.lotteryRecord -->
+      <class name="main.testcase.points.creditexChange">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.creditexChange -->
+      <class name="main.testcase.Other.getStartDiagram">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Other.getStartDiagram -->
+    </classes>
+  </test> <!-- 微买单接口测试 - 钱包页面(failed) -->
+  <test name="微买单接口测试 - 店员管理(failed)">
+    <classes>
+      <class name="main.testcase.Other.accessToSystemConfigurationTables">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Other.accessToSystemConfigurationTables -->
+      <class name="main.testcase.points.notice">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.notice -->
+      <class name="main.testcase.CashCliiection.orderDelete">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.CashCliiection.orderDelete -->
+      <class name="main.testcase.ReverseScan.openid">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.ReverseScan.openid -->
+      <class name="main.testcase.points.checkin">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.checkin -->
+      <class name="main.testcase.ManagementClerk.addShopAssistant">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.ManagementClerk.addShopAssistant -->
+      <class name="main.testcase.Other.fuzzyQueryShopList">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Other.fuzzyQueryShopList -->
+      <class name="main.testcase.CashCliiection.receiptcount">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.CashCliiection.receiptcount -->
+      <class name="main.testcase.Wallet.withdraw_fail">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.withdraw_fail -->
+      <class name="main.testcase.CashCliiection.cashCliiection">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.CashCliiection.cashCliiection -->
+      <class name="main.testcase.Lottery.ticker">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Lottery.ticker -->
+      <class name="main.testcase.RegisterAndlogin.getAuthCode">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.getAuthCode -->
+      <class name="main.testcase.ReverseScan.activeThecode">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.ReverseScan.activeThecode -->
+      <class name="main.testcase.Setting.personalDataToSee">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Setting.personalDataToSee -->
+      <class name="main.testcase.Wallet.accountBalance">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.accountBalance -->
+      <class name="main.testcase.RegisterAndlogin.managerCompleteRegistration">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.managerCompleteRegistration -->
+      <class name="main.testcase.Lottery.lottery">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Lottery.lottery -->
+      <class name="main.testcase.ReverseScan.isActiveCode">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.ReverseScan.isActiveCode -->
+      <class name="main.testcase.Other.sessionGuid">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Other.sessionGuid -->
+      <class name="main.testcase.ReverseScan.atheringCodeShop">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.ReverseScan.atheringCodeShop -->
+      <class name="main.testcase.Other.fuzzyQueryCityList">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Other.fuzzyQueryCityList -->
+      <class name="main.testcase.Lottery.lotteryTimes">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Lottery.lotteryTimes -->
+      <class name="main.testcase.CashCliiection.ordernumber">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.CashCliiection.ordernumber -->
+      <class name="main.testcase.RegisterAndlogin.retrievePassword">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.retrievePassword -->
+      <class name="main.testcase.Discover.discoveryModules">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Discover.discoveryModules -->
+      <class name="main.testcase.RegisterAndlogin.register">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.register -->
+      <class name="main.testcase.Wallet.Withdraw">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.Withdraw -->
+      <class name="main.testcase.points.records">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.records -->
+      <class name="main.testcase.points.direction">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.direction -->
+      <class name="main.testcase.RegisterAndlogin.completeRegistrationClerk">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.completeRegistrationClerk -->
+      <class name="main.testcase.ReverseScan.getGatheringCode">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.ReverseScan.getGatheringCode -->
+      <class name="main.testcase.RegisterAndlogin.login">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.login -->
+      <class name="main.testcase.Wallet.BeforeTheWithdrawalInformationQuery">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.BeforeTheWithdrawalInformationQuery -->
+      <class name="main.testcase.Wallet.withdrawalRecordList">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.withdrawalRecordList -->
+      <class name="main.testcase.Setting.changePassword">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Setting.changePassword -->
+      <class name="main.testcase.RegisterAndlogin.checkShopName">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.checkShopName -->
+      <class name="main.testcase.ManagementClerk.shopAssistantList">
+        <methods>
+          <include name="SAL_code" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- main.testcase.ManagementClerk.shopAssistantList -->
+      <class name="main.testcase.points.myPoint">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.myPoint -->
+      <class name="main.testcase.Wallet.withdraw_already">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.withdraw_already -->
+      <class name="main.testcase.Lottery.lotteryAward">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Lottery.lotteryAward -->
+      <class name="main.testcase.points.ruleMsg">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.ruleMsg -->
+      <class name="main.testcase.Lottery.lotteryRecord">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Lottery.lotteryRecord -->
+      <class name="main.testcase.points.creditexChange">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.creditexChange -->
+      <class name="main.testcase.Other.getStartDiagram">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Other.getStartDiagram -->
+    </classes>
+  </test> <!-- 微买单接口测试 - 店员管理(failed) -->
+  <test name="微买单接口测试 - 抽奖(failed)">
+    <classes>
+      <class name="main.testcase.Other.accessToSystemConfigurationTables">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Other.accessToSystemConfigurationTables -->
+      <class name="main.testcase.points.notice">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.notice -->
+      <class name="main.testcase.CashCliiection.orderDelete">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.CashCliiection.orderDelete -->
+      <class name="main.testcase.ReverseScan.openid">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.ReverseScan.openid -->
+      <class name="main.testcase.points.checkin">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.checkin -->
+      <class name="main.testcase.ManagementClerk.addShopAssistant">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.ManagementClerk.addShopAssistant -->
+      <class name="main.testcase.Other.fuzzyQueryShopList">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Other.fuzzyQueryShopList -->
+      <class name="main.testcase.CashCliiection.receiptcount">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.CashCliiection.receiptcount -->
+      <class name="main.testcase.Wallet.withdraw_fail">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.withdraw_fail -->
+      <class name="main.testcase.CashCliiection.cashCliiection">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.CashCliiection.cashCliiection -->
+      <class name="main.testcase.Lottery.ticker">
+        <methods>
+          <include name="setup"/>
+          <include name="ticker" invocation-numbers="0 1 2 3 4 5 6"/>
+        </methods>
+      </class> <!-- main.testcase.Lottery.ticker -->
+      <class name="main.testcase.RegisterAndlogin.getAuthCode">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.getAuthCode -->
+      <class name="main.testcase.ReverseScan.activeThecode">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.ReverseScan.activeThecode -->
+      <class name="main.testcase.Setting.personalDataToSee">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Setting.personalDataToSee -->
+      <class name="main.testcase.Wallet.accountBalance">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.accountBalance -->
+      <class name="main.testcase.RegisterAndlogin.managerCompleteRegistration">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.managerCompleteRegistration -->
+      <class name="main.testcase.Lottery.lottery">
+        <methods>
+          <include name="lottery" invocation-numbers="0"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Lottery.lottery -->
+      <class name="main.testcase.ReverseScan.isActiveCode">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.ReverseScan.isActiveCode -->
+      <class name="main.testcase.Other.sessionGuid">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Other.sessionGuid -->
+      <class name="main.testcase.ReverseScan.atheringCodeShop">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.ReverseScan.atheringCodeShop -->
+      <class name="main.testcase.Other.fuzzyQueryCityList">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Other.fuzzyQueryCityList -->
+      <class name="main.testcase.Lottery.lotteryTimes">
+        <methods>
+          <include name="getAuthCode_code" invocation-numbers="0"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Lottery.lotteryTimes -->
+      <class name="main.testcase.CashCliiection.ordernumber">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.CashCliiection.ordernumber -->
+      <class name="main.testcase.RegisterAndlogin.retrievePassword">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.retrievePassword -->
+      <class name="main.testcase.Discover.discoveryModules">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Discover.discoveryModules -->
+      <class name="main.testcase.RegisterAndlogin.register">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.register -->
+      <class name="main.testcase.Wallet.Withdraw">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.Withdraw -->
+      <class name="main.testcase.points.records">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.records -->
+      <class name="main.testcase.points.direction">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.direction -->
+      <class name="main.testcase.RegisterAndlogin.completeRegistrationClerk">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.completeRegistrationClerk -->
+      <class name="main.testcase.ReverseScan.getGatheringCode">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.ReverseScan.getGatheringCode -->
+      <class name="main.testcase.RegisterAndlogin.login">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.login -->
+      <class name="main.testcase.Wallet.BeforeTheWithdrawalInformationQuery">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.BeforeTheWithdrawalInformationQuery -->
+      <class name="main.testcase.Setting.changePassword">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Setting.changePassword -->
+      <class name="main.testcase.Wallet.withdrawalRecordList">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.withdrawalRecordList -->
+      <class name="main.testcase.RegisterAndlogin.checkShopName">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.checkShopName -->
+      <class name="main.testcase.points.myPoint">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.myPoint -->
+      <class name="main.testcase.Wallet.withdraw_already">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.withdraw_already -->
+      <class name="main.testcase.Lottery.lotteryAward">
+        <methods>
+          <include name="ticker" invocation-numbers="0 1 2 3 4 5 6"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Lottery.lotteryAward -->
+      <class name="main.testcase.points.ruleMsg">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.ruleMsg -->
+      <class name="main.testcase.points.creditexChange">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.creditexChange -->
+      <class name="main.testcase.Lottery.lotteryRecord">
+        <methods>
+          <include name="setup"/>
+          <include name="getAuthCode_code" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- main.testcase.Lottery.lotteryRecord -->
+      <class name="main.testcase.Other.getStartDiagram">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Other.getStartDiagram -->
+    </classes>
+  </test> <!-- 微买单接口测试 - 抽奖(failed) -->
+  <test name="微买单接口测试 - 反扫(failed)">
+    <classes>
+      <class name="main.testcase.Other.accessToSystemConfigurationTables">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Other.accessToSystemConfigurationTables -->
+      <class name="main.testcase.points.notice">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.notice -->
+      <class name="main.testcase.CashCliiection.orderDelete">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.CashCliiection.orderDelete -->
+      <class name="main.testcase.points.checkin">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.checkin -->
+      <class name="main.testcase.ReverseScan.openid">
+        <methods>
+          <include name="openid" invocation-numbers="0"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.ReverseScan.openid -->
+      <class name="main.testcase.ManagementClerk.addShopAssistant">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.ManagementClerk.addShopAssistant -->
+      <class name="main.testcase.Other.fuzzyQueryShopList">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Other.fuzzyQueryShopList -->
+      <class name="main.testcase.CashCliiection.receiptcount">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.CashCliiection.receiptcount -->
+      <class name="main.testcase.Wallet.withdraw_fail">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.withdraw_fail -->
+      <class name="main.testcase.CashCliiection.cashCliiection">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.CashCliiection.cashCliiection -->
+      <class name="main.testcase.Lottery.ticker">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Lottery.ticker -->
+      <class name="main.testcase.RegisterAndlogin.getAuthCode">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.getAuthCode -->
+      <class name="main.testcase.ReverseScan.activeThecode">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.ReverseScan.activeThecode -->
+      <class name="main.testcase.Setting.personalDataToSee">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Setting.personalDataToSee -->
+      <class name="main.testcase.Wallet.accountBalance">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.accountBalance -->
+      <class name="main.testcase.RegisterAndlogin.managerCompleteRegistration">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.managerCompleteRegistration -->
+      <class name="main.testcase.Lottery.lottery">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Lottery.lottery -->
+      <class name="main.testcase.ReverseScan.isActiveCode">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.ReverseScan.isActiveCode -->
+      <class name="main.testcase.Other.sessionGuid">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Other.sessionGuid -->
+      <class name="main.testcase.ReverseScan.atheringCodeShop">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.ReverseScan.atheringCodeShop -->
+      <class name="main.testcase.Other.fuzzyQueryCityList">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Other.fuzzyQueryCityList -->
+      <class name="main.testcase.Lottery.lotteryTimes">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Lottery.lotteryTimes -->
+      <class name="main.testcase.ReverseScan.fansaopay">
+        <methods>
+          <include name="fsp" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- main.testcase.ReverseScan.fansaopay -->
+      <class name="main.testcase.CashCliiection.ordernumber">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.CashCliiection.ordernumber -->
+      <class name="main.testcase.RegisterAndlogin.retrievePassword">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.retrievePassword -->
+      <class name="main.testcase.Discover.discoveryModules">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Discover.discoveryModules -->
+      <class name="main.testcase.RegisterAndlogin.register">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.register -->
+      <class name="main.testcase.Wallet.Withdraw">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.Withdraw -->
+      <class name="main.testcase.points.records">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.records -->
+      <class name="main.testcase.points.direction">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.direction -->
+      <class name="main.testcase.RegisterAndlogin.completeRegistrationClerk">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.completeRegistrationClerk -->
+      <class name="main.testcase.ReverseScan.getGatheringCode">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.ReverseScan.getGatheringCode -->
+      <class name="main.testcase.RegisterAndlogin.login">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.login -->
+      <class name="main.testcase.Wallet.BeforeTheWithdrawalInformationQuery">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.BeforeTheWithdrawalInformationQuery -->
+      <class name="main.testcase.Setting.changePassword">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Setting.changePassword -->
+      <class name="main.testcase.Wallet.withdrawalRecordList">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.withdrawalRecordList -->
+      <class name="main.testcase.RegisterAndlogin.checkShopName">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.checkShopName -->
+      <class name="main.testcase.points.myPoint">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.myPoint -->
+      <class name="main.testcase.Wallet.withdraw_already">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.withdraw_already -->
+      <class name="main.testcase.Lottery.lotteryAward">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Lottery.lotteryAward -->
+      <class name="main.testcase.points.ruleMsg">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.ruleMsg -->
+      <class name="main.testcase.Lottery.lotteryRecord">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Lottery.lotteryRecord -->
+      <class name="main.testcase.points.creditexChange">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.creditexChange -->
+      <class name="main.testcase.Other.getStartDiagram">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Other.getStartDiagram -->
+    </classes>
+  </test> <!-- 微买单接口测试 - 反扫(failed) -->
+  <test name="微买单接口测试 -现金收款 (failed)">
+    <classes>
+      <class name="main.testcase.Other.accessToSystemConfigurationTables">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Other.accessToSystemConfigurationTables -->
+      <class name="main.testcase.points.notice">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.notice -->
+      <class name="main.testcase.CashCliiection.orderDelete">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.CashCliiection.orderDelete -->
+      <class name="main.testcase.ReverseScan.openid">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.ReverseScan.openid -->
+      <class name="main.testcase.points.checkin">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.checkin -->
+      <class name="main.testcase.ManagementClerk.addShopAssistant">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.ManagementClerk.addShopAssistant -->
+      <class name="main.testcase.Other.fuzzyQueryShopList">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Other.fuzzyQueryShopList -->
+      <class name="main.testcase.CashCliiection.receiptcount">
+        <methods>
+          <include name="setup"/>
+          <include name="receiptcount" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- main.testcase.CashCliiection.receiptcount -->
+      <class name="main.testcase.Wallet.withdraw_fail">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.withdraw_fail -->
+      <class name="main.testcase.CashCliiection.cashCliiection">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.CashCliiection.cashCliiection -->
+      <class name="main.testcase.Lottery.ticker">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Lottery.ticker -->
+      <class name="main.testcase.RegisterAndlogin.getAuthCode">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.getAuthCode -->
+      <class name="main.testcase.ReverseScan.activeThecode">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.ReverseScan.activeThecode -->
+      <class name="main.testcase.Setting.personalDataToSee">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Setting.personalDataToSee -->
+      <class name="main.testcase.Wallet.accountBalance">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.accountBalance -->
+      <class name="main.testcase.RegisterAndlogin.managerCompleteRegistration">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.managerCompleteRegistration -->
+      <class name="main.testcase.Lottery.lottery">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Lottery.lottery -->
+      <class name="main.testcase.ReverseScan.isActiveCode">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.ReverseScan.isActiveCode -->
+      <class name="main.testcase.Other.sessionGuid">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Other.sessionGuid -->
+      <class name="main.testcase.ReverseScan.atheringCodeShop">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.ReverseScan.atheringCodeShop -->
+      <class name="main.testcase.Other.fuzzyQueryCityList">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Other.fuzzyQueryCityList -->
+      <class name="main.testcase.Lottery.lotteryTimes">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Lottery.lotteryTimes -->
+      <class name="main.testcase.RegisterAndlogin.retrievePassword">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.retrievePassword -->
+      <class name="main.testcase.CashCliiection.ordernumber">
+        <methods>
+          <include name="receiptcount" invocation-numbers="0 1 2"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.CashCliiection.ordernumber -->
+      <class name="main.testcase.Discover.discoveryModules">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Discover.discoveryModules -->
+      <class name="main.testcase.RegisterAndlogin.register">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.register -->
+      <class name="main.testcase.Wallet.Withdraw">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.Withdraw -->
+      <class name="main.testcase.points.records">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.records -->
+      <class name="main.testcase.points.direction">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.direction -->
+      <class name="main.testcase.RegisterAndlogin.completeRegistrationClerk">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.completeRegistrationClerk -->
+      <class name="main.testcase.ReverseScan.getGatheringCode">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.ReverseScan.getGatheringCode -->
+      <class name="main.testcase.RegisterAndlogin.login">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.login -->
+      <class name="main.testcase.Wallet.BeforeTheWithdrawalInformationQuery">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.BeforeTheWithdrawalInformationQuery -->
+      <class name="main.testcase.Setting.changePassword">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Setting.changePassword -->
+      <class name="main.testcase.Wallet.withdrawalRecordList">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.withdrawalRecordList -->
+      <class name="main.testcase.RegisterAndlogin.checkShopName">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.checkShopName -->
+      <class name="main.testcase.points.myPoint">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.myPoint -->
+      <class name="main.testcase.Wallet.withdraw_already">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.withdraw_already -->
+      <class name="main.testcase.Lottery.lotteryAward">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Lottery.lotteryAward -->
+      <class name="main.testcase.points.ruleMsg">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.ruleMsg -->
+      <class name="main.testcase.Lottery.lotteryRecord">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Lottery.lotteryRecord -->
+      <class name="main.testcase.points.creditexChange">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.creditexChange -->
+      <class name="main.testcase.Other.getStartDiagram">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Other.getStartDiagram -->
+    </classes>
+  </test> <!-- 微买单接口测试 -现金收款 (failed) -->
+  <test name="微买单接口测试 - 积分(failed)">
+    <classes>
+      <class name="main.testcase.Other.accessToSystemConfigurationTables">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Other.accessToSystemConfigurationTables -->
+      <class name="main.testcase.points.notice">
+        <methods>
+          <include name="records" invocation-numbers="0"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.notice -->
+      <class name="main.testcase.CashCliiection.orderDelete">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.CashCliiection.orderDelete -->
+      <class name="main.testcase.ReverseScan.openid">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.ReverseScan.openid -->
+      <class name="main.testcase.points.checkin">
+        <methods>
+          <include name="checkin" invocation-numbers="0"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.checkin -->
+      <class name="main.testcase.ManagementClerk.addShopAssistant">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.ManagementClerk.addShopAssistant -->
+      <class name="main.testcase.Other.fuzzyQueryShopList">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Other.fuzzyQueryShopList -->
+      <class name="main.testcase.CashCliiection.receiptcount">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.CashCliiection.receiptcount -->
+      <class name="main.testcase.Wallet.withdraw_fail">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.withdraw_fail -->
+      <class name="main.testcase.CashCliiection.cashCliiection">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.CashCliiection.cashCliiection -->
+      <class name="main.testcase.Lottery.ticker">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Lottery.ticker -->
+      <class name="main.testcase.RegisterAndlogin.getAuthCode">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.getAuthCode -->
+      <class name="main.testcase.Setting.personalDataToSee">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Setting.personalDataToSee -->
+      <class name="main.testcase.ReverseScan.activeThecode">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.ReverseScan.activeThecode -->
+      <class name="main.testcase.Wallet.accountBalance">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.accountBalance -->
+      <class name="main.testcase.RegisterAndlogin.managerCompleteRegistration">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.managerCompleteRegistration -->
+      <class name="main.testcase.Lottery.lottery">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Lottery.lottery -->
+      <class name="main.testcase.ReverseScan.isActiveCode">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.ReverseScan.isActiveCode -->
+      <class name="main.testcase.Other.sessionGuid">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Other.sessionGuid -->
+      <class name="main.testcase.ReverseScan.atheringCodeShop">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.ReverseScan.atheringCodeShop -->
+      <class name="main.testcase.Other.fuzzyQueryCityList">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Other.fuzzyQueryCityList -->
+      <class name="main.testcase.Lottery.lotteryTimes">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Lottery.lotteryTimes -->
+      <class name="main.testcase.CashCliiection.ordernumber">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.CashCliiection.ordernumber -->
+      <class name="main.testcase.RegisterAndlogin.retrievePassword">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.retrievePassword -->
+      <class name="main.testcase.Discover.discoveryModules">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Discover.discoveryModules -->
+      <class name="main.testcase.RegisterAndlogin.register">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.register -->
+      <class name="main.testcase.Wallet.Withdraw">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.Withdraw -->
+      <class name="main.testcase.points.records">
+        <methods>
+          <include name="records" invocation-numbers="0"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.records -->
+      <class name="main.testcase.points.direction">
+        <methods>
+          <include name="setup"/>
+          <include name="direction" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- main.testcase.points.direction -->
+      <class name="main.testcase.RegisterAndlogin.completeRegistrationClerk">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.completeRegistrationClerk -->
+      <class name="main.testcase.ReverseScan.getGatheringCode">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.ReverseScan.getGatheringCode -->
+      <class name="main.testcase.RegisterAndlogin.login">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.login -->
+      <class name="main.testcase.Wallet.BeforeTheWithdrawalInformationQuery">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.BeforeTheWithdrawalInformationQuery -->
+      <class name="main.testcase.Setting.changePassword">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Setting.changePassword -->
+      <class name="main.testcase.Wallet.withdrawalRecordList">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.withdrawalRecordList -->
+      <class name="main.testcase.RegisterAndlogin.checkShopName">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.checkShopName -->
+      <class name="main.testcase.Wallet.withdraw_already">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.withdraw_already -->
+      <class name="main.testcase.points.myPoint">
+        <methods>
+          <include name="records" invocation-numbers="0"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.myPoint -->
+      <class name="main.testcase.Lottery.lotteryAward">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Lottery.lotteryAward -->
+      <class name="main.testcase.points.ruleMsg">
+        <methods>
+          <include name="ruleMsg" invocation-numbers="0"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.ruleMsg -->
+      <class name="main.testcase.Lottery.lotteryRecord">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Lottery.lotteryRecord -->
+      <class name="main.testcase.points.creditexChange">
+        <methods>
+          <include name="records" invocation-numbers="0"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.creditexChange -->
+      <class name="main.testcase.Other.getStartDiagram">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Other.getStartDiagram -->
+    </classes>
+  </test> <!-- 微买单接口测试 - 积分(failed) -->
+  <test name="微买单接口测试 - qita(failed)">
+    <classes>
+      <class name="main.testcase.Other.accessToSystemConfigurationTables">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Other.accessToSystemConfigurationTables -->
+      <class name="main.testcase.points.notice">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.notice -->
+      <class name="main.testcase.Other.rootPost">
+        <methods>
+          <include name="login_result" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- main.testcase.Other.rootPost -->
+      <class name="main.testcase.CashCliiection.orderDelete">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.CashCliiection.orderDelete -->
+      <class name="main.testcase.ReverseScan.openid">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.ReverseScan.openid -->
+      <class name="main.testcase.points.checkin">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.checkin -->
+      <class name="main.testcase.ManagementClerk.addShopAssistant">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.ManagementClerk.addShopAssistant -->
+      <class name="main.testcase.Other.payConfig">
+        <methods>
+          <include name="payconfig" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- main.testcase.Other.payConfig -->
+      <class name="main.testcase.Other.fuzzyQueryShopList">
+        <methods>
+          <include name="fqcl_code" invocation-numbers="0"/>
+          <include name="fqcl_result" invocation-numbers="0"/>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Other.fuzzyQueryShopList -->
+      <class name="main.testcase.CashCliiection.receiptcount">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.CashCliiection.receiptcount -->
+      <class name="main.testcase.Wallet.withdraw_fail">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.withdraw_fail -->
+      <class name="main.testcase.CashCliiection.cashCliiection">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.CashCliiection.cashCliiection -->
+      <class name="main.testcase.Lottery.ticker">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Lottery.ticker -->
+      <class name="main.testcase.RegisterAndlogin.getAuthCode">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.getAuthCode -->
+      <class name="main.testcase.Setting.personalDataToSee">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Setting.personalDataToSee -->
+      <class name="main.testcase.ReverseScan.activeThecode">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.ReverseScan.activeThecode -->
+      <class name="main.testcase.Wallet.accountBalance">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.accountBalance -->
+      <class name="main.testcase.RegisterAndlogin.managerCompleteRegistration">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.managerCompleteRegistration -->
+      <class name="main.testcase.Lottery.lottery">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Lottery.lottery -->
+      <class name="main.testcase.ReverseScan.isActiveCode">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.ReverseScan.isActiveCode -->
+      <class name="main.testcase.Other.sessionGuid">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Other.sessionGuid -->
+      <class name="main.testcase.ReverseScan.atheringCodeShop">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.ReverseScan.atheringCodeShop -->
+      <class name="main.testcase.Other.fuzzyQueryCityList">
+        <methods>
+          <include name="url_to_start"/>
+          <include name="fqcl_result" invocation-numbers="0 1"/>
+          <include name="fqcl_code" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- main.testcase.Other.fuzzyQueryCityList -->
+      <class name="main.testcase.Lottery.lotteryTimes">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Lottery.lotteryTimes -->
+      <class name="main.testcase.CashCliiection.ordernumber">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.CashCliiection.ordernumber -->
+      <class name="main.testcase.RegisterAndlogin.retrievePassword">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.retrievePassword -->
+      <class name="main.testcase.Other.root">
+        <methods>
+          <include name="getAuthCode_code" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- main.testcase.Other.root -->
+      <class name="main.testcase.Discover.discoveryModules">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Discover.discoveryModules -->
+      <class name="main.testcase.RegisterAndlogin.register">
+        <methods>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.register -->
+      <class name="main.testcase.Wallet.Withdraw">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.Withdraw -->
+      <class name="main.testcase.points.records">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.records -->
+      <class name="main.testcase.points.direction">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.direction -->
+      <class name="main.testcase.RegisterAndlogin.completeRegistrationClerk">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.completeRegistrationClerk -->
+      <class name="main.testcase.ReverseScan.getGatheringCode">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.ReverseScan.getGatheringCode -->
+      <class name="main.testcase.RegisterAndlogin.login">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.login -->
+      <class name="main.testcase.Wallet.BeforeTheWithdrawalInformationQuery">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.BeforeTheWithdrawalInformationQuery -->
+      <class name="main.testcase.Setting.changePassword">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Setting.changePassword -->
+      <class name="main.testcase.Wallet.withdrawalRecordList">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.withdrawalRecordList -->
+      <class name="main.testcase.RegisterAndlogin.checkShopName">
+        <methods>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.RegisterAndlogin.checkShopName -->
+      <class name="main.testcase.points.myPoint">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.myPoint -->
+      <class name="main.testcase.Wallet.withdraw_already">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Wallet.withdraw_already -->
+      <class name="main.testcase.Lottery.lotteryAward">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Lottery.lotteryAward -->
+      <class name="main.testcase.points.ruleMsg">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.ruleMsg -->
+      <class name="main.testcase.Lottery.lotteryRecord">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.Lottery.lotteryRecord -->
+      <class name="main.testcase.points.creditexChange">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- main.testcase.points.creditexChange -->
+      <class name="main.testcase.Other.getStartDiagram">
+        <methods>
+          <include name="gsd_code" invocation-numbers="1"/>
+          <include name="url_to_start"/>
+        </methods>
+      </class> <!-- main.testcase.Other.getStartDiagram -->
+    </classes>
+  </test> <!-- 微买单接口测试 - qita(failed) -->
+</suite> <!-- Failed suite [TestNGSutie] -->

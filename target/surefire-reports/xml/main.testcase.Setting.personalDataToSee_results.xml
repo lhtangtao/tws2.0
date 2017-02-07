@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="微买单接口测试 - 设置"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.045">
+  <properties />
+  
+  
+            <testcase name="pdte" time="0.045" classname="main.testcase.Setting.personalDataToSee" />
+      
+</testsuite>

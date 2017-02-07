@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17011" started-at="2016-06-15T08:51:36Z" finished-at="2016-06-15T08:51:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17011" started-at="2016-06-15T08:51:36Z" finished-at="2016-06-15T08:51:53Z">
+      <class name="main.testcase.RegisterAndlogin.login">
+        <test-method status="PASS" signature="setup()[pri:0, instance:main.testcase.RegisterAndlogin.login@1576f881]" name="setup" is-config="true" duration-ms="2945" started-at="2016-06-15T16:51:36Z" finished-at="2016-06-15T16:51:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.testcase.RegisterAndlogin.login@1576f881]" name="login" duration-ms="2545" started-at="2016-06-15T16:51:39Z" data-provider="ex" finished-at="2016-06-15T16:51:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15658890633]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[32005beb6cc4314fe07aa6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10003]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[密码错误]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.testcase.RegisterAndlogin.login@1576f881]" name="login" duration-ms="1313" started-at="2016-06-15T16:51:41Z" data-provider="ex" finished-at="2016-06-15T16:51:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1565889]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[32005beb6cc4314fe07aa6b0c9208f99]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10002]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[账号不存在]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="FAIL" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.testcase.RegisterAndlogin.login@1576f881]" name="login" duration-ms="2707" started-at="2016-06-15T16:51:43Z" data-provider="ex" finished-at="2016-06-15T16:51:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15658890633]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[32005beb6cc4314fe07aa6b0c9208f99]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[空]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at main.testcase.RegisterAndlogin.login.login(login.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.testcase.RegisterAndlogin.login@1576f881]" name="login" duration-ms="1669" started-at="2016-06-15T16:51:46Z" data-provider="ex" finished-at="2016-06-15T16:51:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15658890633333]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[32005beb6cc4314fe07aa6b0c9208f99]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10002]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[账号不存在]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.testcase.RegisterAndlogin.login@1576f881]" name="login" duration-ms="3149" started-at="2016-06-15T16:51:47Z" data-provider="ex" finished-at="2016-06-15T16:51:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13333333333]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[32005beb6cc4314fe07aa6b0c9208f99]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10002]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[账号不存在]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:main.testcase.RegisterAndlogin.login@1576f881]" name="login" duration-ms="2194" started-at="2016-06-15T16:51:50Z" data-provider="ex" finished-at="2016-06-15T16:51:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[35658890633]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[32005beb6cc4314fe07aa6b0c9208f99]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10002]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[账号不存在]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- main.testcase.RegisterAndlogin.login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

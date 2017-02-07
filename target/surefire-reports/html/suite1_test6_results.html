@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - 微买单接口测试 - 店员管理</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>微买单接口测试 - 店员管理</h1>
+<p>
+  Test duration: 9.842s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">main.testcase.ManagementClerk.addShopAssistant</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  asa
+      </td>
+  <td class="duration">
+    0.779s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"11c8f677-9fe0-4fc8-b895-76e4b86e5dd9", "小汤哥5", "15658890631", "Y", "200", "添加成功！"</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected [true] but found [false]</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              org.testng.Assert.fail(Assert.java:94)<br />
+              org.testng.Assert.failNotEquals(Assert.java:513)<br />
+              org.testng.Assert.assertEqualsImpl(Assert.java:135)<br />
+              org.testng.Assert.assertEquals(Assert.java:116)<br />
+              org.testng.Assert.assertEquals(Assert.java:179)<br />
+              main.testcase.ManagementClerk.addShopAssistant.asa(addShopAssistant.java:81)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:606)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:643)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:782)<br />
+              org.testng.TestRunner.run(TestRunner.java:632)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:366)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:268)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1169)<br />
+              org.testng.TestNG.run(TestNG.java:1064)<br />
+              org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:74)<br />
+              org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)<br />
+              org.apache.maven.surefire.Surefire.run(Surefire.java:180)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:606)<br />
+              org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:350)<br />
+              org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1021)<br />
+                </div>
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">main.testcase.ManagementClerk.queryAssistantInformation</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  QAI_code
+      </td>
+  <td class="duration">
+    0.028s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"15658893333", "200", "Y", "空"</span><br />
+    
+        
+
+        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError: expected object to not be null</b></a><br />
+    <div class="stackTrace" id="exception-1">
+              org.testng.Assert.fail(Assert.java:94)<br />
+              org.testng.Assert.assertNotNull(Assert.java:423)<br />
+              org.testng.Assert.assertNotNull(Assert.java:408)<br />
+              main.testcase.ManagementClerk.queryAssistantInformation.QAI_code(queryAssistantInformation.java:63)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:606)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:643)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:782)<br />
+              org.testng.TestRunner.run(TestRunner.java:632)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:366)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:268)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1169)<br />
+              org.testng.TestNG.run(TestNG.java:1064)<br />
+              org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:74)<br />
+              org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)<br />
+              org.apache.maven.surefire.Surefire.run(Surefire.java:180)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:606)<br />
+              org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:350)<br />
+              org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1021)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">main.testcase.ManagementClerk.addShopAssistant</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  asa
+      </td>
+  <td class="duration">
+    0.784s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"2fb41a5e-331c-47a5-a4ab-43438a9b6183", "空", "15658890631", "N", "403", "Sorry, there is no employee shop relations in cache!"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  asa
+      </td>
+  <td class="duration">
+    0.811s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"11c8f677-9fe0-4fc8-b895-76e4b86e5dd9", "小汤哥11", "25658890631", "N", "601", "please input correct phone number!"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  asa
+      </td>
+  <td class="duration">
+    0.813s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"11c8f677-9fe0-4fc8-b895-76e4b86e5dd9", "小汤哥8", "空", "N", "601", "employeeUsername can not be empty!"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  asa
+      </td>
+  <td class="duration">
+    0.796s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"11c8f677-9fe0-4fc8-b895-76e4b86e5dd9", "小汤哥6", "156", "N", "601", "please input correct phone number!"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  asa
+      </td>
+  <td class="duration">
+    0.796s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"空", "小汤哥6", "15658890631", "N", "403", "Sorry, there is no employee shop relations in cache!"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  asa
+      </td>
+  <td class="duration">
+    0.810s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"11c8f677-9fe0-4fc8-b895-76e4b86e5dd9", "小汤哥7", "156588966663336", "N", "601", "please input correct phone number!"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  asa
+      </td>
+  <td class="duration">
+    0.792s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"11c8f677-9fe0-4fc8-b895-76e4b86e5dd9", "小汤哥101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010", "15658890631", "N", "601", "店员名称太长！"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  asa
+      </td>
+  <td class="duration">
+    0.664s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"2fb41a5e-1111-1111-1111-43438a9b6185", "小汤哥9", "15658890631", "N", "403", "Sorry, there is no employee shop relations in cache!"</span><br />
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">main.testcase.ManagementClerk.queryAssistantInformation</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  QAI_code
+      </td>
+  <td class="duration">
+    0.035s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"15658890633", "200", "Y", "存在"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  QAI_code
+      </td>
+  <td class="duration">
+    0.022s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"25658890633", "601", "N", "空"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  QAI_code
+      </td>
+  <td class="duration">
+    0.027s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"15658890333333600", "601", "N", "空"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  QAI_code
+      </td>
+  <td class="duration">
+    0.024s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"15658833", "601", "N", "空"</span><br />
+    
+        
+
+      </td>
+</tr>
+          <tr>
+        <td colspan="3" class="group">main.testcase.ManagementClerk.shopAssistantList</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  SAL_code
+      </td>
+  <td class="duration">
+    0.024s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"11c8f677-9fe0-4fc8-b895-76e4b86e5dd9963215", "21", "12", "403", "N"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  SAL_code
+      </td>
+  <td class="duration">
+    0.217s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"11c8f677-9fe0-4fc8-b895-76e4b86e5dd9", "21", "32", "200", "Y"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  SAL_code
+      </td>
+  <td class="duration">
+    0.231s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"11c8f677-9fe0-4fc8-b895-76e4b86e5dd9", "21", "12", "200", "Y"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  SAL_code
+      </td>
+  <td class="duration">
+    0.026s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"空", "21", "12", "403", "N"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  SAL_code
+      </td>
+  <td class="duration">
+    0.028s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"11c8f677-9fe0-4fc8-b895-76e4b", "21", "12", "403", "N"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  SAL_code
+      </td>
+  <td class="duration">
+    0.215s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"11c8f677-9fe0-4fc8-b895-76e4b86e5dd9", "1", "1", "200", "Y"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  SAL_code
+      </td>
+  <td class="duration">
+    0.035s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"11c8f677-9fe0-4fc8-1111-76e4b86e5dd9", "21", "12", "403", "N"</span><br />
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  SAL_code
+      </td>
+  <td class="duration">
+    0.218s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"11c8f677-9fe0-4fc8-b895-76e4b86e5dd9", "55", "32", "200", "Y"</span><br />
+    
+        
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>

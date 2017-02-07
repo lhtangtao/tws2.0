@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="微买单接口测试 - 钱包页面"
+           tests="18"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="13.747">
+  <properties />
+  
+  
+            <testcase name="withdraw" time="0.761" classname="main.testcase.Withdraw" />
+                <testcase name="withdraw" time="0.833" classname="main.testcase.Withdraw" />
+                <testcase name="withdraw" time="0.717" classname="main.testcase.Withdraw" />
+                <testcase name="withdraw" time="0.694" classname="main.testcase.Withdraw" />
+                <testcase name="withdraw" time="0.780" classname="main.testcase.Withdraw" />
+                <testcase name="withdraw" time="0.668" classname="main.testcase.Withdraw" />
+                <testcase name="withdraw" time="0.768" classname="main.testcase.Withdraw" />
+                <testcase name="withdraw" time="0.723" classname="main.testcase.Withdraw" />
+                <testcase name="withdraw" time="0.809" classname="main.testcase.Withdraw" />
+                <testcase name="withdraw" time="0.765" classname="main.testcase.Withdraw" />
+                <testcase name="withdraw" time="0.952" classname="main.testcase.Withdraw" />
+                <testcase name="withdraw" time="0.774" classname="main.testcase.Withdraw" />
+                <testcase name="withdraw" time="0.787" classname="main.testcase.Withdraw" />
+                <testcase name="withdraw" time="0.635" classname="main.testcase.Withdraw" />
+                <testcase name="withdraw" time="0.814" classname="main.testcase.Withdraw" />
+                <testcase name="withdraw" time="0.740" classname="main.testcase.Withdraw" />
+                <testcase name="withdraw" time="0.761" classname="main.testcase.Withdraw" />
+                <testcase name="withdraw" time="0.766" classname="main.testcase.Withdraw" />
+      
+</testsuite>

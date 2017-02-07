@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Î¢Âòµ¥½Ó¿Ú²âÊÔ - qita"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.195">
+  <properties />
+  
+  
+            <testcase name="pt_result" time="1.195" classname="main.testcase.pushToken" />
+      
+</testsuite>

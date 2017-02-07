@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="微买单接口测试 - 首款订单"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.126">
+  <properties />
+  
+  
+            <testcase name="Gl" time="0.021" classname="main.testcase.gatheringList" />
+                <testcase name="Gl" time="0.059" classname="main.testcase.gatheringList" />
+                <testcase name="Gl" time="0.024" classname="main.testcase.gatheringList" />
+                <testcase name="Gl" time="0.022" classname="main.testcase.gatheringList" />
+      
+</testsuite>

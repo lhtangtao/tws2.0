@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="微买单接口测试 - 设置"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.604">
+  <properties />
+  
+  
+            <testcase name="personCentre_result" time="0.185" classname="main.testcase.Setting.personalCenter" />
+                <testcase name="personCentre_result" time="0.184" classname="main.testcase.Setting.personalCenter" />
+                <testcase name="personCentre_result" time="0.182" classname="main.testcase.Setting.personalCenter" />
+                <testcase name="personCentre_result" time="0.053" classname="main.testcase.Setting.personalCenter" />
+      
+</testsuite>

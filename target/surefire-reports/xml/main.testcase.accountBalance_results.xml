@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="微买单接口测试 - 钱包页面"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.116">
+  <properties />
+  
+  
+            <testcase name="ab" time="0.020" classname="main.testcase.accountBalance" />
+                <testcase name="ab" time="0.020" classname="main.testcase.accountBalance" />
+                <testcase name="ab" time="0.022" classname="main.testcase.accountBalance" />
+                <testcase name="ab" time="0.054" classname="main.testcase.accountBalance" />
+      
+</testsuite>

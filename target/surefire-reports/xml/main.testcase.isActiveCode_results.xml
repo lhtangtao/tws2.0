@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="微买单接口测试 - 反扫"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.106">
+  <properties />
+  
+  
+            <testcase name="iac" time="0.022" classname="main.testcase.isActiveCode" />
+                <testcase name="iac" time="0.020" classname="main.testcase.isActiveCode" />
+                <testcase name="iac" time="0.020" classname="main.testcase.isActiveCode" />
+                <testcase name="iac" time="0.024" classname="main.testcase.isActiveCode" />
+                <testcase name="iac" time="0.020" classname="main.testcase.isActiveCode" />
+      
+</testsuite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="微买单接口测试 - 店员管理"
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.994">
+  <properties />
+  
+  
+            <testcase name="SAL_code" time="0.218" classname="main.testcase.ManagementClerk.shopAssistantList" />
+                <testcase name="SAL_code" time="0.035" classname="main.testcase.ManagementClerk.shopAssistantList" />
+                <testcase name="SAL_code" time="0.024" classname="main.testcase.ManagementClerk.shopAssistantList" />
+                <testcase name="SAL_code" time="0.215" classname="main.testcase.ManagementClerk.shopAssistantList" />
+                <testcase name="SAL_code" time="0.217" classname="main.testcase.ManagementClerk.shopAssistantList" />
+                <testcase name="SAL_code" time="0.028" classname="main.testcase.ManagementClerk.shopAssistantList" />
+                <testcase name="SAL_code" time="0.231" classname="main.testcase.ManagementClerk.shopAssistantList" />
+                <testcase name="SAL_code" time="0.026" classname="main.testcase.ManagementClerk.shopAssistantList" />
+      
+</testsuite>

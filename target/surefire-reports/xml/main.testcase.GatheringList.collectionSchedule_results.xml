@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="微买单接口测试 - 首款订单"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.524">
+  <properties />
+  
+  
+            <testcase name="collectionSchedule" time="0.715" classname="main.testcase.GatheringList.collectionSchedule" />
+                <testcase name="collectionSchedule" time="0.799" classname="main.testcase.GatheringList.collectionSchedule" />
+                <testcase name="collectionSchedule" time="0.678" classname="main.testcase.GatheringList.collectionSchedule" />
+                <testcase name="collectionSchedule" time="0.687" classname="main.testcase.GatheringList.collectionSchedule" />
+                <testcase name="collectionSchedule" time="0.802" classname="main.testcase.GatheringList.collectionSchedule" />
+                <testcase name="collectionSchedule" time="0.843" classname="main.testcase.GatheringList.collectionSchedule" />
+      
+</testsuite>

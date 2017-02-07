@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="微买单接口测试 - 钱包页面"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.758">
+  <properties />
+  
+  
+            <testcase name="w_al" time="2.758" classname="main.testcase.withdraw_already" />
+      
+</testsuite>

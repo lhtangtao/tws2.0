@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestNGSutie"  preserve-order="true">
+    <test name="微买单接口测试 - 注册登录" preserve-order="true" verbose="1"><!--数据资料的位置在\src\test\resources下，名字为zhucedenglu-->
+        <classes>
+            <!--测试全部通过-->
+            <class name="main.testcase.RegisterAndlogin.login"/> <!--登录-->
+            <class name="main.testcase.RegisterAndlogin.getAuthCode"/> <!--获取验证码-->
+            <class name="main.testcase.RegisterAndlogin.register"/> <!--注册-->
+            <class name="main.testcase.RegisterAndlogin.completeRegistrationClerk"/> <!--店员注册-->
+            <class name="main.testcase.RegisterAndlogin.managerCompleteRegistration"/> <!--店长注册-->
+            <class name="main.testcase.RegisterAndlogin.checkShopName"/> <!--店铺名字校验-->
+            <class name="main.testcase.RegisterAndlogin.retrievePassword"/> <!--找回密码-->
+        </classes>
+    </test>
+
+    <test name="微买单接口测试 - 首款订单" preserve-order="true" verbose="1">
+        <classes>
+            <!--测试全部通过-->
+            <class name="main.testcase.GatheringList.gatheringList"/> <!--收款列表-->
+            <class name="main.testcase.GatheringList.collectionSchedule"/> <!--收款详情-->
+        </classes>
+    </test>
+
+    <test name="微买单接口测试 - 设置" preserve-order="true" verbose="1">
+        <classes>
+            <class name="main.testcase.Setting.personalDataToSee"/> <!--个人资料查看-->
+            <class name="main.testcase.Setting.changePassword"/> <!--修改密码-->
+            <class name="main.testcase.Setting.personalCenter"/><!--个人中心模块-->
+        </classes>
+    </test>
+
+    <test name="微买单接口测试 - 钱包页面" preserve-order="true" verbose="1">
+        <classes>
+            <class name="main.testcase.Wallet.accountBalance"/> <!--钱包余额--><!--默认会设置正确的shopid余额为100-->
+            <class name="main.testcase.Wallet.withdrawalRecordList"/> <!--提现记录列表-->
+            <class name="main.testcase.Wallet.BeforeTheWithdrawalInformationQuery"/> <!--提现前信息查询-->
+            <class name="main.testcase.Wallet.Withdraw"/><!--提现-->
+            <class name="main.testcase.Wallet.withdraw_fail"/><!--提现验证失败的情况-->
+            <class name="main.testcase.Wallet.withdraw_already"/><!--提现已验证的情况 -->
+            <!--<class name="main.testcase.Wallet.subsidy"/>&lt;!&ndash;补贴回调&ndash;&gt;-->
+            <!--<class name="main.testcase.Wallet.sweepCode"/>&lt;!&ndash;扫码支付&ndash;&gt;-->
+        </classes>
+    </test>
+
+    <test name="微买单接口测试 - faxian页面" preserve-order="true" verbose="1">
+        <classes>
+            <class name="main.testcase.Discover.discoveryModules"/> <!--faxian页面--><!--已提单-->
+        </classes>
+    </test>
+
+    <test name="微买单接口测试 - 店员管理" preserve-order="true" verbose="1">
+        <classes>
+            <class name="main.testcase.ManagementClerk.queryAssistantInformation"/> <!--店员信息查询--><!--已提单-->
+            <class name="main.testcase.ManagementClerk.shopAssistantList"/> <!--店员列表-->
+            <class name="main.testcase.ManagementClerk.addShopAssistant"/> <!--添加店员-->
+            <!--<class name="main.testcase.ManagementClerk.deleteShopAssistant"/> &lt;!&ndash;删除店员&ndash;&gt;-->
+        </classes>
+    </test>
+
+    <!--<test name="微买单接口测试 - 抽奖" preserve-order="true" verbose="1">-->
+        <!--<classes>-->
+            <!--<class name="main.testcase.Lottery.lottery"/>&lt;!&ndash;choujiang&ndash;&gt;-->
+            <!--<class name="main.testcase.Lottery.lotteryRecord"/>&lt;!&ndash;choujiang记录&ndash;&gt;-->
+            <!--<class name="main.testcase.Lottery.lotteryAward"/>&lt;!&ndash;choujiang奖项&ndash;&gt;-->
+            <!--<class name="main.testcase.Lottery.lotteryTimes"/>&lt;!&ndash;获取choujiang次数&ndash;&gt;-->
+            <!--<class name="main.testcase.Lottery.ticker"/>&lt;!&ndash;获取跑马灯&ndash;&gt;-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="微买单接口测试 - 反扫" preserve-order="true" verbose="1">-->
+    <!--<classes>-->
+        <!--<class name="main.testcase.ReverseScan.fansaopay"/>&lt;!&ndash;fansao支付&ndash;&gt;-->
+        <!--<class name="main.testcase.ReverseScan.atheringCodeShop"/>&lt;!&ndash;根据二维码获取店铺信息&ndash;&gt;-->
+        <!--<class name="main.testcase.ReverseScan.getGatheringCode"/>&lt;!&ndash;获取收款码图&ndash;&gt;-->
+        <!--<class name="main.testcase.ReverseScan.isActiveCode"/>&lt;!&ndash;商户是否激活二维码&ndash;&gt;-->
+        <!--<class name="main.testcase.ReverseScan.openid"/>&lt;!&ndash;获取openid模块&ndash;&gt;-->
+        <!--<class name="main.testcase.ReverseScan.activeThecode"/>&lt;!&ndash;商户激活收款码模块&ndash;&gt;-->
+    <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="微买单接口测试 -现金收款 " preserve-order="true" verbose="1">-->
+        <!--<classes>-->
+            <!--<class name="main.testcase.CashCliiection.cashCliiection"/>&lt;!&ndash;xianjin&ndash;&gt;-->
+            <!--<class name="main.testcase.CashCliiection.receiptcount"/>&lt;!&ndash;xianjin总数&ndash;&gt;-->
+            <!--<class name="main.testcase.CashCliiection.ordernumber"/>&lt;!&ndash;收款单数&ndash;&gt;-->
+            <!--<class name="main.testcase.CashCliiection.orderDelete"/>&lt;!&ndash;现金shoukuandingdan删除&ndash;&gt;-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="微买单接口测试 - 积分" preserve-order="true" verbose="1">-->
+        <!--<classes>-->
+            <!--<class name="main.testcase.points.ruleMsg"/>&lt;!&ndash;发送jifen规则&ndash;&gt;-->
+            <!--<class name="main.testcase.points.direction"/>&lt;!&ndash;jifen商城跳转&ndash;&gt;-->
+            <!--<class name="main.testcase.points.checkin"/>&lt;!&ndash;签到接口&ndash;&gt;-->
+            <!--<class name="main.testcase.points.records"/>&lt;!&ndash;jifen变更记录接口&ndash;&gt;-->
+            <!--<class name="main.testcase.points.myPoint"/>&lt;!&ndash;获取当前jifen接口&ndash;&gt;-->
+            <!--<class name="main.testcase.points.creditexChange"/>&lt;!&ndash;兑换奖品jifen接口&ndash;&gt;-->
+            <!--<class name="main.testcase.points.notice"/>&lt;!&ndash;兑换结果通知接口&ndash;&gt;-->
+        <!--</classes>-->
+    <!--</test>-->
+
+    <!--<test name="微买单接口测试 - qita" preserve-order="true" verbose="1">-->
+        <!--<classes>-->
+            <!--<class name="main.testcase.Other.upgradeToRemind"/> &lt;!&ndash;版本升级提醒&ndash;&gt;-->
+            <!--<class name="main.testcase.Other.getStartDiagram"/> &lt;!&ndash;获取启动图&ndash;&gt;-->
+            <!--<class name="main.testcase.Other.accessToSystemConfigurationTables"/> &lt;!&ndash;获取系统配置表&ndash;&gt;-->
+            <!--<class name="main.testcase.Other.fuzzyQueryCityList"/> &lt;!&ndash;城市列表模糊查询&ndash;&gt;&lt;!&ndash;暂时有问题&ndash;&gt;-->
+            <!--<class name="main.testcase.Other.fuzzyQueryShopList"/> &lt;!&ndash;店铺列表模糊查询&ndash;&gt;&lt;!&ndash;暂时有问题&ndash;&gt;-->
+            <!--<class name="main.testcase.Other.pushToken"/> &lt;!&ndash;更新PushToken&ndash;&gt;-->
+            <!--<class name="main.testcase.Other.payConfig"/> &lt;!&ndash;打款配置&ndash;&gt;&lt;!&ndash;这个接口 怎么判断对错,目前还有错&ndash;&gt;-->
+            <!--<class name="main.testcase.Other.root"/> &lt;!&ndash;获取权限&ndash;&gt;-->
+            <!--<class name="main.testcase.Other.rootPost"/> &lt;!&ndash;更新权限&ndash;&gt;-->
+            <!--<class name="main.testcase.Other.sessionGuid"/> &lt;!&ndash;通过SessionGuid获取关联店铺信息&ndash;&gt;-->
+        <!--</classes>-->
+    <!--</test>-->
+
+</suite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="微买单接口测试 - 钱包页面"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.121">
+  <properties />
+  
+  
+            <testcase name="btwiq" time="1.029" classname="main.testcase.BeforeTheWithdrawalInformationQuery" />
+                <testcase name="btwiq" time="1.028" classname="main.testcase.BeforeTheWithdrawalInformationQuery" />
+                <testcase name="btwiq" time="1.039" classname="main.testcase.BeforeTheWithdrawalInformationQuery" />
+                <testcase name="btwiq" time="1.025" classname="main.testcase.BeforeTheWithdrawalInformationQuery" />
+      
+</testsuite>

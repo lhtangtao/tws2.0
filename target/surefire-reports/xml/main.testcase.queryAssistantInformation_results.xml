@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="微买单接口测试 - 店员管理"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.107">
+  <properties />
+  
+  
+            <testcase name="QAI_code" time="0.027" classname="main.testcase.queryAssistantInformation" />
+                <testcase name="QAI_code" time="0.018" classname="main.testcase.queryAssistantInformation" />
+                <testcase name="QAI_code" time="0.018" classname="main.testcase.queryAssistantInformation" />
+                <testcase name="QAI_code" time="0.019" classname="main.testcase.queryAssistantInformation" />
+                <testcase name="QAI_code" time="0.025" classname="main.testcase.queryAssistantInformation" />
+      
+</testsuite>

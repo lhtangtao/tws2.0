@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="微买单接口测试 - faxian页面"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.116">
+  <properties />
+  
+  
+            <testcase name="dc_code" time="0.037" classname="main.testcase.discoveryModules" />
+                <testcase name="dc_code" time="0.041" classname="main.testcase.discoveryModules" />
+                <testcase name="dc_code" time="0.038" classname="main.testcase.discoveryModules" />
+      
+</testsuite>

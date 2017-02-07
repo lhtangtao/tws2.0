@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Î¢Âòµ¥½Ó¿Ú²âÊÔ - ×¢²áµÇÂ¼"
+           tests="9"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="7.084">
+  <properties />
+  
+  
+            <testcase name="cp_result" time="0.842" classname="main.testcase.completeRegistrationClerk" />
+                <testcase name="cp_result" time="0.796" classname="main.testcase.completeRegistrationClerk" />
+                <testcase name="cp_result" time="0.674" classname="main.testcase.completeRegistrationClerk" />
+                <testcase name="cp_result" time="0.806" classname="main.testcase.completeRegistrationClerk" />
+                <testcase name="cp_result" time="0.780" classname="main.testcase.completeRegistrationClerk" />
+                <testcase name="cp_result" time="0.793" classname="main.testcase.completeRegistrationClerk" />
+                <testcase name="cp_result" time="0.809" classname="main.testcase.completeRegistrationClerk" />
+                <testcase name="cp_result" time="0.793" classname="main.testcase.completeRegistrationClerk" />
+                <testcase name="cp_result" time="0.791" classname="main.testcase.completeRegistrationClerk" />
+      
+</testsuite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Î¢Âòµ¥½Ó¿Ú²âÊÔ - ×¢²áµÇÂ¼"
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.359">
+  <properties />
+  
+  
+            <testcase name="mcr_exresult" time="0.041" classname="main.testcase.managerCompleteRegistration" />
+                <testcase name="mcr_exresult" time="0.042" classname="main.testcase.managerCompleteRegistration" />
+                <testcase name="mcr_exresult" time="0.041" classname="main.testcase.managerCompleteRegistration" />
+                <testcase name="mcr_exresult" time="0.035" classname="main.testcase.managerCompleteRegistration" />
+                <testcase name="mcr_exresult" time="0.039" classname="main.testcase.managerCompleteRegistration" />
+                <testcase name="mcr_exresult" time="0.037" classname="main.testcase.managerCompleteRegistration" />
+                <testcase name="mcr_exresult" time="0.080" classname="main.testcase.managerCompleteRegistration" />
+                <testcase name="mcr_exresult" time="0.044" classname="main.testcase.managerCompleteRegistration" />
+      
+</testsuite>

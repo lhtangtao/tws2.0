@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="微买单接口测试 - 店员管理"
+           tests="9"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="6.896">
+  <properties />
+  
+  
+            <testcase name="asa" time="0.760" classname="main.testcase.addShopAssistant" />
+                <testcase name="asa" time="0.796" classname="main.testcase.addShopAssistant" />
+                <testcase name="asa" time="0.770" classname="main.testcase.addShopAssistant" />
+                <testcase name="asa" time="0.773" classname="main.testcase.addShopAssistant" />
+                <testcase name="asa" time="0.847" classname="main.testcase.addShopAssistant" />
+                <testcase name="asa" time="0.649" classname="main.testcase.addShopAssistant" />
+                <testcase name="asa" time="0.765" classname="main.testcase.addShopAssistant" />
+                <testcase name="asa" time="0.768" classname="main.testcase.addShopAssistant" />
+                <testcase name="asa" time="0.768" classname="main.testcase.addShopAssistant" />
+      
+</testsuite>

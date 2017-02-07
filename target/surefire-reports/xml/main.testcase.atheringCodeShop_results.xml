@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="微买单接口测试 - 反扫"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.121">
+  <properties />
+  
+  
+            <testcase name="acs_code" time="0.055" classname="main.testcase.atheringCodeShop" />
+                <testcase name="acs_code" time="0.023" classname="main.testcase.atheringCodeShop" />
+                <testcase name="acs_code" time="0.022" classname="main.testcase.atheringCodeShop" />
+                <testcase name="acs_code" time="0.021" classname="main.testcase.atheringCodeShop" />
+      
+</testsuite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Î¢Âòµ¥½Ó¿Ú²âÊÔ - ×¢²áµÇÂ¼"
+           tests="7"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.280">
+  <properties />
+  
+  
+            <testcase name="getAuthCode_code" time="0.026" classname="main.testcase.getAuthCode" />
+                <testcase name="getAuthCode_code" time="0.128" classname="main.testcase.getAuthCode" />
+                <testcase name="getAuthCode_code" time="0.024" classname="main.testcase.getAuthCode" />
+                <testcase name="getAuthCode_code" time="0.023" classname="main.testcase.getAuthCode" />
+                <testcase name="getAuthCode_code" time="0.033" classname="main.testcase.getAuthCode" />
+                <testcase name="getAuthCode_code" time="0.024" classname="main.testcase.getAuthCode" />
+                <testcase name="getAuthCode_code" time="0.022" classname="main.testcase.getAuthCode" />
+      
+</testsuite>

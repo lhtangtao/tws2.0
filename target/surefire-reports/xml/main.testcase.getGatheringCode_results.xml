@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="微买单接口测试 - 反扫"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.053">
+  <properties />
+  
+  
+            <testcase name="getAuthCode_code" time="0.026" classname="main.testcase.getGatheringCode" />
+                <testcase name="getAuthCode_code" time="0.027" classname="main.testcase.getGatheringCode" />
+      
+</testsuite>

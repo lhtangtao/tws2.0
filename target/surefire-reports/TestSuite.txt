@@ -1,0 +1,309 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 135, Failures: 33, Errors: 0, Skipped: 0, Time elapsed: 82.934 sec <<< FAILURE!
+login(main.testcase.RegisterAndlogin.login)  Time elapsed: 1.018 sec  <<< FAILURE!
+java.lang.AssertionError: expected [空] but found []
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at main.testcase.RegisterAndlogin.login.login(login.java:65)
+
+register_result(main.testcase.RegisterAndlogin.register)  Time elapsed: 0.833 sec  <<< FAILURE!
+java.lang.AssertionError: expected [空] but found []
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at main.testcase.RegisterAndlogin.register.register_result(register.java:87)
+
+register_result(main.testcase.RegisterAndlogin.register)  Time elapsed: 0.8 sec  <<< FAILURE!
+java.lang.AssertionError: expected [601] but found [10902]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at main.testcase.RegisterAndlogin.register.register_result(register.java:85)
+
+register_result(main.testcase.RegisterAndlogin.register)  Time elapsed: 0.835 sec  <<< FAILURE!
+java.lang.AssertionError: expected [601] but found [0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at main.testcase.RegisterAndlogin.register.register_result(register.java:85)
+
+register_result(main.testcase.RegisterAndlogin.register)  Time elapsed: 0.817 sec  <<< FAILURE!
+java.lang.AssertionError: expected [601] but found [0]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at main.testcase.RegisterAndlogin.register.register_result(register.java:85)
+
+cp_result(main.testcase.RegisterAndlogin.completeRegistrationClerk)  Time elapsed: 0.843 sec  <<< FAILURE!
+java.lang.AssertionError: expected [601] but found [200]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at main.testcase.RegisterAndlogin.completeRegistrationClerk.cp_result(completeRegistrationClerk.java:74)
+
+cp_result(main.testcase.RegisterAndlogin.completeRegistrationClerk)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NumberFormatException: For input string: "空"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:492)
+	at java.lang.Integer.parseInt(Integer.java:527)
+	at main.testcase.RegisterAndlogin.completeRegistrationClerk.cp_result(completeRegistrationClerk.java:58)
+
+mcr_exresult(main.testcase.RegisterAndlogin.managerCompleteRegistration)  Time elapsed: 0.048 sec  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [601]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at main.testcase.RegisterAndlogin.managerCompleteRegistration.mcr_exresult(managerCompleteRegistration.java:79)
+
+mcr_exresult(main.testcase.RegisterAndlogin.managerCompleteRegistration)  Time elapsed: 0.042 sec  <<< FAILURE!
+java.lang.AssertionError: expected [10006] but found [601]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at main.testcase.RegisterAndlogin.managerCompleteRegistration.mcr_exresult(managerCompleteRegistration.java:79)
+
+mcr_exresult(main.testcase.RegisterAndlogin.managerCompleteRegistration)  Time elapsed: 0.043 sec  <<< FAILURE!
+java.lang.AssertionError: expected [店铺名称太长] but found [signImage can not be empty.]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at main.testcase.RegisterAndlogin.managerCompleteRegistration.mcr_exresult(managerCompleteRegistration.java:81)
+
+mcr_exresult(main.testcase.RegisterAndlogin.managerCompleteRegistration)  Time elapsed: 0.048 sec  <<< FAILURE!
+java.lang.AssertionError: expected [地址参数长度错误] but found [signImage can not be empty.]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at main.testcase.RegisterAndlogin.managerCompleteRegistration.mcr_exresult(managerCompleteRegistration.java:81)
+
+mcr_exresult(main.testcase.RegisterAndlogin.managerCompleteRegistration)  Time elapsed: 0.047 sec  <<< FAILURE!
+java.lang.AssertionError: expected [200] but found [601]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at main.testcase.RegisterAndlogin.managerCompleteRegistration.mcr_exresult(managerCompleteRegistration.java:79)
+
+mcr_exresult(main.testcase.RegisterAndlogin.managerCompleteRegistration)  Time elapsed: 0.046 sec  <<< FAILURE!
+java.lang.AssertionError: expected [店铺名称不能为空] but found [signImage can not be empty.]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at main.testcase.RegisterAndlogin.managerCompleteRegistration.mcr_exresult(managerCompleteRegistration.java:81)
+
+mcr_exresult(main.testcase.RegisterAndlogin.managerCompleteRegistration)  Time elapsed: 0.05 sec  <<< FAILURE!
+java.lang.AssertionError: expected [城市参数长度错误] but found [signImage can not be empty.]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at main.testcase.RegisterAndlogin.managerCompleteRegistration.mcr_exresult(managerCompleteRegistration.java:81)
+
+mcr_exresult(main.testcase.RegisterAndlogin.managerCompleteRegistration)  Time elapsed: 0.047 sec  <<< FAILURE!
+java.lang.AssertionError: expected [地址参数长度错误] but found [signImage can not be empty.]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at main.testcase.RegisterAndlogin.managerCompleteRegistration.mcr_exresult(managerCompleteRegistration.java:81)
+
+checkHsopName(main.testcase.RegisterAndlogin.checkShopName)  Time elapsed: 0.079 sec  <<< FAILURE!
+java.lang.AssertionError: expected [601] but found [200]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at main.testcase.RegisterAndlogin.checkShopName.checkHsopName(checkShopName.java:62)
+
+rp_result(main.testcase.RegisterAndlogin.retrievePassword)  Time elapsed: 0.729 sec  <<< FAILURE!
+java.lang.AssertionError: expected [601] but found [200]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at main.testcase.RegisterAndlogin.retrievePassword.rp_result(retrievePassword.java:71)
+
+rp_result(main.testcase.RegisterAndlogin.retrievePassword)  Time elapsed: 0.809 sec  <<< FAILURE!
+java.lang.AssertionError: expected [601] but found [200]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at main.testcase.RegisterAndlogin.retrievePassword.rp_result(retrievePassword.java:71)
+
+rp_result(main.testcase.RegisterAndlogin.retrievePassword)  Time elapsed: 0.81 sec  <<< FAILURE!
+java.lang.AssertionError: expected [601] but found [10902]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at main.testcase.RegisterAndlogin.retrievePassword.rp_result(retrievePassword.java:71)
+
+cp_code(main.testcase.Setting.changePassword)  Time elapsed: 0.068 sec  <<< FAILURE!
+java.lang.AssertionError: expected [空] but found []
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at main.testcase.Setting.changePassword.cp_code(changePassword.java:86)
+
+ab(main.testcase.Wallet.accountBalance)  Time elapsed: 0.025 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at main.testcase.Wallet.accountBalance.ab(accountBalance.java:69)
+
+ab(main.testcase.Wallet.accountBalance)  Time elapsed: 0.025 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at main.testcase.Wallet.accountBalance.ab(accountBalance.java:69)
+
+ab(main.testcase.Wallet.accountBalance)  Time elapsed: 0.025 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at main.testcase.Wallet.accountBalance.ab(accountBalance.java:69)
+
+withdraw(main.testcase.Wallet.Withdraw)  Time elapsed: 0.806 sec  <<< FAILURE!
+java.lang.AssertionError: expected [601] but found [10509]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at main.testcase.Wallet.Withdraw.withdraw(Withdraw.java:89)
+
+withdraw(main.testcase.Wallet.Withdraw)  Time elapsed: 0.802 sec  <<< FAILURE!
+java.lang.AssertionError: expected [601] but found [10509]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at main.testcase.Wallet.Withdraw.withdraw(Withdraw.java:89)
+
+withdraw(main.testcase.Wallet.Withdraw)  Time elapsed: 0.945 sec  <<< FAILURE!
+java.lang.AssertionError: expected [601] but found [10509]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at main.testcase.Wallet.Withdraw.withdraw(Withdraw.java:89)
+
+withdraw(main.testcase.Wallet.Withdraw)  Time elapsed: 0.865 sec  <<< FAILURE!
+java.lang.AssertionError: expected [601] but found [10509]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at main.testcase.Wallet.Withdraw.withdraw(Withdraw.java:89)
+
+w_al(main.testcase.Wallet.withdraw_fail)  Time elapsed: 0.706 sec  <<< FAILURE!
+java.lang.AssertionError: expected [601] but found [10509]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at main.testcase.Wallet.withdraw_fail.w_al(withdraw_fail.java:85)
+
+w_al(main.testcase.Wallet.withdraw_fail)  Time elapsed: 0.854 sec  <<< FAILURE!
+java.lang.AssertionError: expected [601] but found [10509]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at main.testcase.Wallet.withdraw_fail.w_al(withdraw_fail.java:85)
+
+w_al(main.testcase.Wallet.withdraw_fail)  Time elapsed: 0.795 sec  <<< FAILURE!
+java.lang.AssertionError: expected [601] but found [10509]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at main.testcase.Wallet.withdraw_fail.w_al(withdraw_fail.java:85)
+
+w_al(main.testcase.Wallet.withdraw_fail)  Time elapsed: 0.663 sec  <<< FAILURE!
+java.lang.AssertionError: expected [601] but found [10509]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:389)
+	at org.testng.Assert.assertEquals(Assert.java:399)
+	at main.testcase.Wallet.withdraw_fail.w_al(withdraw_fail.java:85)
+
+QAI_code(main.testcase.ManagementClerk.queryAssistantInformation)  Time elapsed: 0.029 sec  <<< FAILURE!
+java.lang.AssertionError: expected object to not be null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.assertNotNull(Assert.java:423)
+	at org.testng.Assert.assertNotNull(Assert.java:408)
+	at main.testcase.ManagementClerk.queryAssistantInformation.QAI_code(queryAssistantInformation.java:63)
+
+asa(main.testcase.ManagementClerk.addShopAssistant)  Time elapsed: 0.779 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:179)
+	at main.testcase.ManagementClerk.addShopAssistant.asa(addShopAssistant.java:81)
+

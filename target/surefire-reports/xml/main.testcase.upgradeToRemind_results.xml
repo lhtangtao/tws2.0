@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Î¢Âòµ¥½Ó¿Ú²âÊÔ - qita"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.025">
+  <properties />
+  
+  
+            <testcase name="utr_code" time="0.025" classname="main.testcase.upgradeToRemind" />
+      
+</testsuite>
